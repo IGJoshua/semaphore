@@ -10,6 +10,7 @@ Any time a segment of the version number increments, all following segments are 
 ## [Unreleased]
 ### Fixed
 - Bad dependencies which pulled in clojure and clojurescript regardless of which your project is
+- Bug where a bad call to `map` made printing some conditions from `throwing-debugger` error (thanks to Kasper Gałkowski aka @Uthar for this fix)
 
 ## [1.5.0] - 2023-05-05
 ### Added
